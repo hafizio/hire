@@ -1,0 +1,20 @@
+name: hire
+version: 0.1.0
+
+authors:
+  - Hafiz Khairudin <ibnukamy@gmail.com>
+
+targets:
+  hire:
+    main: src/hire.cr
+
+crystal: 0.19.4
+
+license: MIT
+
+dependencies:
+  commander:
+    github: mrrooijen/commander
+    version: ~> 0.3.3
+  smtp:
+    github: raydf/smtp.cr
